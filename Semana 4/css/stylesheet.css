@@ -1,0 +1,97 @@
+html {
+		font-family: 'Open Sans', sans-serif;
+	}
+	
+	#wrapper { 
+		max-width: 990px; 
+		margin: auto; 
+	}
+
+		header {
+			height: 289px;
+			width: 990px;
+			background: #ccc;
+		}
+
+			header .mccafe {
+				position: absolute;
+				margin-top: 65px;
+				margin-left: 329px;
+			}
+
+			header .semillas {
+				position: absolute;
+			}
+
+			nav {
+				height: 35px;
+				width: 994px;
+				top: 262px;
+				position: absolute;
+				color: #ffffff;
+				text-transform: uppercase;
+				background: #230b03;
+	   		}	
+			
+			nav li {
+				font-size: 14px;
+				display: inline;
+				position: relative;
+				top: 8px;
+				left: 275px;
+				padding-right: 29px;
+			}
+
+			nav li:hover {
+				background: #8a6145;
+			}
+
+		section {
+			height: 331px;
+			width: 994px;
+		}
+
+			section h1 {
+				font-weight: bold;
+				line-height: 50px;
+			}
+
+			.article1, .article2 {
+				line-height: 15px;
+				margin-top: 37px;
+				position: absolute;
+			}
+
+			.article1 {
+				max-width: 338px;
+			    margin-left: 117px;
+			}
+
+			.article2 {
+				max-width: 338px;
+			    margin-left: 500px;
+			}
+			
+			h1 {
+				font-weight: bold;
+				font-size: 24px;
+			}
+
+			p {
+		  		font-size: 12px;
+		  		text-align: left;
+		  		color: #230b03;
+			}	
+
+		footer {
+			height: 35px;
+			width: 994px;
+			background: #230b03;
+		}
+
+			footer p {
+				margin-left: 27px;
+				margin-top: 10px;
+				position: absolute;
+				color: #ffffff;
+			}

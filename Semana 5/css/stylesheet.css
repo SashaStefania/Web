@@ -1,0 +1,78 @@
+#wrapper {
+  width: 1650px;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+}
+        header {
+          height: 150px;
+          color: white;
+        }
+
+          .background {
+            z-index: -1;
+            position: absolute;
+          }
+
+          header h1 {
+            z-index: 0;
+            float: left;
+            font-size: 50px;
+            margin-top: 50px;
+            margin-left: 50px;
+          }
+
+          header nav {
+            float: right;
+            font-size: 23px;
+            margin-top: 65px;
+            margin-right: 50px;
+          }
+            header nav a:hover {
+              text-decoration: underline; 
+            }
+
+        section {
+          font-family: Helvetica;
+          position: absolute;
+          text-align: left;
+          font-size: 21px;
+          height: 525px;
+          margin-left: 500px;
+          width: 1150px;
+          line-height: 1cm;
+        }
+
+          section h3 {
+          font-size: 15px;
+          }
+
+          section h2 {
+            font-size: 23px;
+            font-weight: bold;
+          }
+
+        aside {
+          height: 525px;
+          position: absolute;
+          line-height: 2.05cm;
+          font-size: 21px;
+        }
+          
+          aside li{
+            list-style-type: none;
+          }
+
+          aside li:hover{
+            text-decoration: underline;
+          }
+
+
+        footer {
+          margin-top: 620px;
+          height: 45px;
+          font-weight: bold;
+        }
+
+          footer hr {
+            size: 1080px;
+          }

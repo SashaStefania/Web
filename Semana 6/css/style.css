@@ -1,0 +1,92 @@
+#wrapper {
+	width: 1500px;
+	margin: auto;
+  	font-family: 'Open Sans', sans-serif;
+}
+
+	header {
+		height: 234px;
+	}
+
+		header h1 {
+			font-size: 40px;
+			font-weight: bold;
+		}
+
+
+		header ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		header li {
+			float: left;
+			display: inline-block;
+			display: inline;
+		}
+
+		header li a {
+			display: inline-block;
+			color: white;
+			text-align: left;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		header li a:hover {
+			background-color: #111;
+		}
+
+	section {
+		margin-left: 340px;
+		line-height: 0.7cm;
+		font-size: 22px;
+		height: 350px;
+	}
+
+		section h2 {
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+
+		section p {
+			font-family: activa;
+			float: left;
+			text-align: justify;
+		}
+
+	aside {
+		height: 338px;
+		position: absolute;
+	}
+
+		aside img {
+			float: left;
+			width: 334px;
+			height: 338px;
+		}
+
+	footer {
+		color: white;
+		background-color: grey;
+		font-family: Verdana;
+	}
+
+
+.puente {
+	opacity: 0.4;
+	display: block;
+    height: 150px;
+    max-height: 50%;
+    width: 100%;
+    max-width: 100%;
+}
+
+@font-face {
+  font-family: 'activa';
+  src: url('../fonts/activa.ttf') format('ttf'),
+       url('../fonts/activa.ttf') format('truetype'); 
+}
